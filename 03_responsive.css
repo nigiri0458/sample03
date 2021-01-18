@@ -1,0 +1,132 @@
+@media (max-width: 1000px){
+    .prof1{
+        width: 70%;
+        left: 15%;
+        top: 200px;
+    }
+    .info1{
+        width: 70%;
+    }
+
+    .prof2{
+        width: 70%;
+        left: 15%;
+        bottom: 200px;
+    }
+    .info2{
+        width: 70%;
+    }
+
+    .mid4{
+        height: auto;
+    }
+    .items{
+        display: flex;
+        flex-direction: column;
+    }
+    .items li{
+        width: 60%;
+    }
+    .items li p{
+        padding-bottom: 50px;
+    }
+
+    .m5prof1 img{
+        width: 70%;
+        position: absolute;
+        top: 10%;
+        left: 0%;
+    }
+    .m5prof1 p{
+        width: 80%;
+    }
+    .m5prof2 img{
+        width: 70%;
+        position: absolute;
+        top: 10%;
+        right: 0%;
+    }
+    .m5prof2 p{
+        width: 80%;
+    }
+
+    .mid6-container h1{
+        color: white;
+        font-size: 40px;
+        padding-top: 200px;
+    }
+}
+
+@media (max-width: 670px){
+    .mid1{
+        height: auto;
+    }
+
+    .mid2-bg{
+        background-position: bottom left -400px;
+    }
+
+    .mid3{
+        height: 2000px;
+    }
+    .prof1{
+        position: static;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 200px;
+    }
+    .info1{
+        position: static;
+        width: 90%;
+        margin: 50px auto;
+    }
+    .prof2{
+        position: static;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 200px;
+    }
+    .info2{
+        position: static;
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    .m5prof1 img{
+        width: 90%;
+        position: static;
+    }
+    .m5prof1 p{
+        width: 80%;
+        position: static;
+        margin: 0 auto;
+    }
+    .m5prof2 img{
+        width: 90%;
+        position: static;
+    }
+    .m5prof2 p{
+        width: 80%;
+        position: static;
+        margin: 0 auto;
+    }
+
+    .mid6-bg{
+        background-size: 150% 150%;
+    }
+
+
+
+    .sns li{
+        width: 30%;
+        font-size: 60px;
+    }
+
+
+
+
+    .footer-container{
+        right: 40%;
+        bottom: 30%;
+    }
+}
